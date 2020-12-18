@@ -70,7 +70,7 @@ body{
 }
 .navbar a{
     color:#0f436b;;
-    font-size:23px !important;
+    font-size:16px !important;
 }
 /****header***/
 .hero-content{
@@ -104,7 +104,13 @@ body{
     width: 100%;
     height: auto;
     max-width: 620px;
+    transform:rotate(12deg);
 }
+.hero-img img:hover{
+    transform:rotate(0deg);
+    transition: 2sec;
+ }
+
 /***About**/
 .about{
     display: flex;
@@ -121,6 +127,10 @@ body{
     height: auto;
     max-width: 420px;
 }
+.about-img img:hover{
+    transform: scale(0.7,0.5);
+    transition: 4sec;
+    }
 .about-text{
     padding: 20px;
     margin: 0px;
@@ -208,6 +218,10 @@ footer span {
 .projects{
   margin-bottom: 2rem;
   margin-top: 0.8rem;
+}
+.projects:hover{
+    transform:translate(10px,5px);
+    background:linear-gradient(60deg, #f3eff0, #bbe2f5, #dfe6e3);
 }
 .projects h2{
     font-size:1.5rem;
