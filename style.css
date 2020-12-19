@@ -342,5 +342,8 @@ footer span {
     .blog h2{
         font-size:1.5rem;
     }
+    .projects p{
+        line-height:25px;
+    }
 }
 
