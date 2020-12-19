@@ -345,5 +345,15 @@ footer span {
     .projects p{
         line-height:25px;
     }
+    .link-primary{
+        margin:0.5rem;
+        padding: 10px;
+        max-width: 120px;
+    }
+    .link-secondary{
+        margin:0.5rem;
+        padding: 10px;
+        max-width: 120px;
+    }
 }
 
