@@ -347,13 +347,15 @@ footer span {
     }
     .link-primary{
         margin:0.5rem;
-        padding: 10px;
-        max-width: 120px;
+        padding: 7px;
+        max-width: 90px;
+        font-size:12px;
     }
     .link-secondary{
         margin:0.5rem;
-        padding: 10px;
-        max-width: 120px;
+        padding: 7px;
+        max-width: 90px;
+        font-size:12px;
     }
 }
 
