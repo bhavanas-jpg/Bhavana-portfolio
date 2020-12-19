@@ -104,12 +104,7 @@ body{
     width: 100%;
     height: auto;
     max-width: 620px;
-    transform:rotate(12deg);
 }
-.hero-img img:hover{
-    transform:rotate(0deg);
-    transition: 2sec;
- }
 
 /***About**/
 .about{
@@ -127,10 +122,6 @@ body{
     height: auto;
     max-width: 420px;
 }
-.about-img img:hover{
-    transform: scale(0.7,0.5);
-    transition: 4sec;
-    }
 .about-text{
     padding: 20px;
     margin: 0px;
@@ -221,7 +212,6 @@ footer span {
   box-shadow:1px 1px 6px 3px rgba(0,0,0,0.7);
 }
 .projects:hover{
-    transform:translate(10px,5px);
     background:linear-gradient(60deg, #f3eff0, #bbe2f5, #dfe6e3);
 }
 .projects h2{
@@ -268,6 +258,11 @@ footer span {
         font-size:1.3rem;
         line-height:30px;
     }
+    footer i {
+        color: #000;
+        font-size: 30px;
+        margin: 0.3rem;
+    }
 }
 @media screen and (max-width:425px)
 {
@@ -312,4 +307,13 @@ footer span {
          font-size:1.4rem;
          line-height:30px;
      }
+     .footer-list li {
+        margin: 0.3rem;
+    }
+    footer i {
+        color: #000;
+        font-size: 20px;
+        margin: 0.3rem;
+    }
 }
+
