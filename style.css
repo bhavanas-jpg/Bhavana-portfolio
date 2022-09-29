@@ -19,7 +19,7 @@ a{
 body{
     max-width: 90%;
     margin:auto;
-    background:linear-gradient(60deg, #f3eff0, #c7dce6, #dfe6e3);
+    background:linear-gradient(60deg, #f3eff0, #d5e8e4, #78abf7);
     font-family: 'Noto Sans JP', sans-serif;
 }
 /*link***/
@@ -50,7 +50,7 @@ body{
 
 .navbar{
     background-color: var(--primary-color);
-    
+    box-shadow: 1px 0px 0 1px;
     padding: 1rem 1rem;
     border-bottom-left-radius:1rem;
 }
@@ -183,6 +183,7 @@ body{
     padding: 1.3rem;
     text-align: center;
     border-top-right-radius: 1rem;
+    box-shadow: 1px 0 3px 0px
 }
 .footer h3 {
     color: #000;
@@ -210,6 +211,7 @@ footer span {
   margin-bottom: 2rem;
   margin-top: 0.8rem;
   box-shadow:1px 1px 6px 3px rgba(0,0,0,0.7);
+  padding: 15px;
 }
 .projects:hover{
     background:linear-gradient(60deg, #f3eff0, #bbe2f5, #dfe6e3);
